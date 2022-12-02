@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: calc(100vw + 33.9px);
+    overflow-x: hidden;
+    background-color: var(--col-bgray);
+}
+
+.tile {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    transition: background-color 4s;
+}
+
+.ablue {
+    background-color: var(--col-ablue);
+}
+.bblue {
+    background-color: var(--col-bblue);
+}
+.cblue {
+    background-color: var(--col-cblue);
+}
+.dblue {
+    background-color: var(--col-dblue);
+}
+.eblue {
+    background-color: var(--col-eblue);
+}
+.bgray {
+    background-color: var(--col-bgray);
+}
+
+.hide {
+    background-color: var(--col-bgray);
+}
+.show {
+}

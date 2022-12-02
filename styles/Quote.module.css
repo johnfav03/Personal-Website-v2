@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    border: 2px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 0;
+    color: white;
+    margin-top: 35px;
+}
+
+.container h2 {
+    font-weight: normal;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    width: 85%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.container h3 {
+    font-weight: normal;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    width: 840px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.quoteMark {
+    font-size: 90px !important;
+    color: var(--col-dblue);
+    background-color: var(--col-bgray);
+    display: block;
+    line-height: 115px !important;
+    height: 55px;
+    position: absolute;
+    width: 85px !important;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.top {
+    top: -35px;
+    left: -25px;
+}
+
+.bot {
+    bottom: -25px;
+    right: -30px;
+}

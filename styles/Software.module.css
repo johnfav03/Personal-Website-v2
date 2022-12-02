@@ -1,0 +1,15 @@
+.container {
+    background-color: var(--col-bgray);
+}
+
+.mainCol {
+    position: absolute;
+    top: 273px;
+    width: 940px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    left: 50vw;
+    transform: translateX(-50%);
+}

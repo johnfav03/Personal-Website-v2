@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    height: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.skill {
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--col-bgray);
+    color: white;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+
+.skill p {
+    text-align: center;
+    font-size: inherit !important;
+    line-height: 25px !important;
+    margin: 0 !important;
+}
