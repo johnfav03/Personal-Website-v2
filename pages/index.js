@@ -51,7 +51,7 @@ export default function Home() {
             src="/images/rock-img.png"
             className={styles.rightImg}  
             height={285}
-            width={350}
+            width={325}
             alt="rocks"
           />
           <Quote 
@@ -59,8 +59,28 @@ export default function Home() {
             auth={"Fernando Pessoa"}
             className={styles.mainQuote}
           />
-          <Spacer hgt={"60px"} wid={"10px"}/>
+          <Spacer hgt={"30px"} wid={"10px"}/>
         </div>
+        <div className={styles.footer}>
+            <a href="https://github.com/johnfav03" target="blank_"><Image
+              src="/images/github-icon.png" 
+              height={30}
+              width={30}
+              alt="github-icon"
+            /></a>
+            <a href="https://www.linkedin.com/in/johnfav" target="blank_"><Image
+              src="/images/linkedin-icon.png"
+              height={30}
+              width={30}
+              alt="linkedin-icon"
+            /></a>
+            <a href="mailto:johnfav@umich.edu" target="blank_"><Image
+              src="/images/mail-icon.png" 
+              height={30}
+              width={30}
+              alt="mail-icon"
+            /></a>
+          </div>
       </div>
     </div>
   )
