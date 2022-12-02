@@ -15,7 +15,7 @@
 
 .halfCov {
   height: 100vh;
-  width: calc(72vh + 1px);
+  width: 73vh;
   position: fixed;
   right: 0;
   top: 0;
@@ -25,14 +25,14 @@
 
 .halfDark {
   height: 100vh;
-  width: calc(calc(72vh + 1px) - min(30vw, calc(72vh + 1px)));
+  width: calc(calc(73vh) - min(30vw, 73vh));
   background-color: var(--col-bgray);
 }
 
 .halfGrad {
   height: 100vh;
-  width: calc(min(40vw, calc(72vh + 1px)) + 1px);
-  background: linear-gradient(269.54deg, #121414 13.34%, rgba(18, 20, 20, 0.79) 99.63%);
+  width: calc(min(40vw, 73vw) + 1px);
+  background: linear-gradient(270deg, #121414 5%, rgba(18, 20, 20, 0.99) 20%, rgba(18, 20, 20, 0.8) 100%);
   transform: matrix(-1, 0, 0, 1, 0, 0);
   margin-left: -1px;
 }
