@@ -20,7 +20,7 @@ export default function Software() {
             <Project 
                 title={"VUE LOCATIONAL WEATHER"}
                 date={"FALL 2022"}
-                msg={"I started this project to learn the VueJs technology, which I then also used to construct the site you're on right now! The web app features geolocational search,  weather updates, and live temperature through the use of the Open-Weather API."}
+                msg={"I started this project to learn the Vue.js technology, which I then also used to construct the site you're on right now! The web app features geolocational search,  weather updates, and live temperature through the use of the Open-Weather API."}
                 skills={["HTML/CSS", "Vue.js", "Javascript"]}
                 img={"/images/vue-weather.png"}
             />
