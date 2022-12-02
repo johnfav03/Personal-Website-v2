@@ -36,7 +36,7 @@ export default function Electrical() {
               date={"FALL 2018"}
               msg={"This project utilized an old Nintendo Wii Nunchuk, spliced onto wires that linked to an Arduino, to draw on a “canvas” - two daisy-chained 8x8 LED Matrices. The joystick controlled the cursor, the two buttons toggled the pen and eraser modes."}
               skills={["Arduino", "C / C++", "Daisy-chain"]}
-              img={"/images/nunchuk.png"}
+              img={"/images/wii-nunchuk.png"}
             />
             <Project 
                 title={"VALENTINE'S DAY OPERATION"}

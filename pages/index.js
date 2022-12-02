@@ -59,7 +59,7 @@ export default function Home() {
             auth={"Fernando Pessoa"}
             className={styles.mainQuote}
           />
-          <Spacer hgt={"30px"} wid={"10px"}/>
+          <Spacer hgt={"60px"} wid={"10px"}/>
         </div>
       </div>
     </div>
