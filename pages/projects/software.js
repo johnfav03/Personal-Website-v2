@@ -34,7 +34,7 @@ export default function Software() {
             <Project 
                 title={"DJANGO IMAGE DROPZONE"}
                 date={"WINTER 2022"}
-                msg={"I started this project to learn the VueJs technology, which I then also used to construct the site you're on right now! The web app features geolocational search,  weather updates, and live temperature through the use of the Open-Weather API."}
+                msg={"This project helped me better grasp back-end development - the application takes in images using the Dropzone.js library, then sends them to a back-end directory, where they're stored to later be retrieved and displayed in a gallery."}
                 skills={["Django", "Python", "Dropzone.js", "Javascript"]}
                 img={"/images/dropzone.png"}
             />
