@@ -25,7 +25,7 @@ export default function Software() {
                 img={"/images/vue-weather.png"}
             />
             <Project 
-                title={"ASSEMBLEY SIMULATOR"}
+                title={"ASSEMBLY SIMULATOR"}
                 date={"FALL 2022"}
                 msg={"This was the first project for EECS 370, Introduction to Computer Organization. We used C to transpile assembly commands to binary code, and then used a different C file to execute commands with only the binary instructions."}
                 skills={["Assembly", "LC2K", "C / C++"]}
