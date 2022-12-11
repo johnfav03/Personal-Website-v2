@@ -32,7 +32,7 @@
 .halfGrad {
   height: 100vh;
   width: calc(min(40vw, 73vw) + 1px);
-  background: linear-gradient(270deg, #121414 5%, rgba(18, 20, 20, 0.99) 20%, rgba(18, 20, 20, 0.8) 100%);
+  background: linear-gradient(270deg, #121414 10%, rgba(18, 20, 20, 0.99) 20%, rgba(18, 20, 20, 0.8) 100%);
   transform: matrix(-1, 0, 0, 1, 0, 0);
   margin-left: -1px;
 }

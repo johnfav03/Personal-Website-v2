@@ -37,7 +37,7 @@ export default function Home() {
               a Front-End Web Developer. At the moment, some of my
               favorite languages/technologies to use include:
             </p>
-            <SkillBar arr={['Next.js', 'Javascript', 'C++', 'Arduino']}/>
+            <SkillBar arr={['Next.js', 'Tailwind', 'Typescript', 'C++', 'Arduino']}/>
             <Spacer hgt={"10px"} wid={"10px"}/>
             <p className={styles.desc}>
               In addition to programming, one of my hobbies is simple
@@ -46,7 +46,7 @@ export default function Home() {
               the menu button above can take you there!
             </p>
           </div>
-          <Spacer hgt={"45px"} wid={"40px"}/>
+          <Spacer hgt={"45px"} wid={"25px"}/>
           <Image
             src="/images/rock-img.png"
             className={styles.rightImg}  

@@ -25,10 +25,10 @@ export default function Software() {
                 img={"/images/vue-weather.png"}
             />
             <Project 
-                title={"ASSEMBLY SIMULATOR"}
+                title={"CACHE SIMULATOR"}
                 date={"FALL 2022"}
-                msg={"This was the first project for EECS 370, Introduction to Computer Organization. We used C to transpile assembly commands to binary code, and then used a different C file to execute commands with only the binary instructions."}
-                skills={["Assembly", "LC2K", "C / C++"]}
+                msg={"This was the final project for EECS 370, Computer Organization. We previously wrote an assmebly code simulator in C, and once we learned about caches, we implemented one in our simulator to better understand associativity & efficiency."}
+                skills={["Cache", "Assembly", "LC2K", "C / C++"]}
                 img={"/images/assemble.png"}
             />
             <Project 
